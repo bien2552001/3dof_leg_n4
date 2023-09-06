@@ -3,3 +3,6 @@
 - _Hien tai 2 chan chua chay bat dong bo duoc_
 # Demo 
 https://github.com/bien2552001/day_05_09_2023/assets/128835452/aecab23f-0d83-4aff-a1af-fcf707c19ad1
+
+# Run
+- Download moveit1: ```https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html#create-a-catkin-workspace```
