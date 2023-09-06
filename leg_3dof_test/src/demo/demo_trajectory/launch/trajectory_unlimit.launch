@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="left_move_node" pkg="demo_trajectory" type="left_move" output="screen"/>
+    <node name="right_move_node" pkg="demo_trajectory" type="right_move" output="screen"/>
+
+</launch>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- Pushlish -->
+    <node name="start_stop_publish_data" pkg="test_all123" type="no1_service_start_stop.py" output="screen"/>
+
+    <!-- Subscribe -->
+    <node name="receiver_data" pkg="test_all123" type="no2_subscribt_data_csv.py" output="screen"/>
+    
+</launch>

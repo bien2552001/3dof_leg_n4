@@ -1,0 +1,5 @@
+demo/moveit12
+/home/bien/leg_3dof_test/devel/.private/moveit12/cmake.lock /home/bien/leg_3dof_test/devel/./cmake.lock
+/home/bien/leg_3dof_test/devel/.private/moveit12/lib/pkgconfig/moveit12.pc /home/bien/leg_3dof_test/devel/lib/pkgconfig/moveit12.pc
+/home/bien/leg_3dof_test/devel/.private/moveit12/share/moveit12/cmake/moveit12Config.cmake /home/bien/leg_3dof_test/devel/share/moveit12/cmake/moveit12Config.cmake
+/home/bien/leg_3dof_test/devel/.private/moveit12/share/moveit12/cmake/moveit12Config-version.cmake /home/bien/leg_3dof_test/devel/share/moveit12/cmake/moveit12Config-version.cmake

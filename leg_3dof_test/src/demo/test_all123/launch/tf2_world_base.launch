@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="tf2_publish" pkg="test_all123" type="no1_tf2_publish.py" output="screen"/>
+    
+    <node name="tf2_listener" pkg="test_all123" type="no2_tf2_listener.py" output="screen"/>
+    
+    <!-- Khởi động RViz -->
+    <node name="rviz" pkg="rviz" type="rviz" output="screen"/>
+    
+</launch>

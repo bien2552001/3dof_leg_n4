@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="topic123_publish_data" pkg="leg_gazebo" type="no1_publish_data_csv.py" output="screen"/>
+    
+    <node name="new_topic_123" pkg="leg_gazebo" type="no2_topic_and_msg_position.py"  output="screen" respawn="false" respawn_delay="0">
+        
+    </node>
+
+</launch>

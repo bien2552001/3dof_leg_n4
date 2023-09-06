@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="publish_data_from_csv" pkg="test_all123" type="no1_publish_data_csv.py" output="screen"/>
+    <node name="hien_thi_goc_khop" pkg="test_all123" type="no3_displaydata.py" output="screen"/>
+    
+</launch>

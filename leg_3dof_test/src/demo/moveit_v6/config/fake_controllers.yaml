@@ -1,0 +1,30 @@
+controller_list:
+  - name: fake_left_group_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - ljoint1
+      - ljoint2
+      - ljoint3
+  - name: fake_right_group_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - rjoint1
+      - rjoint2
+      - rjoint3
+  - name: fake_chain_left_group_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - ljoint1
+      - ljoint2
+      - ljoint3
+  - name: fake_chain_right_group_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - rjoint1
+      - rjoint2
+      - rjoint3
+initial:  # Define initial robot poses per group
+  - group: left_group
+    pose: left_p0
+  - group: right_group
+    pose: right_p0

@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: leg_description
+    relative_path: urdf/urdf_trajectory.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/urdf_trajectory.srdf
+  CONFIG:
+    author_name: bien
+    author_email: bien@gmail.com
+    generated_timestamp: 1692758380

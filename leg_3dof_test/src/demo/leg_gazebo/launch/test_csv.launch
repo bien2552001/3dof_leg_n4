@@ -1,0 +1,22 @@
+<launch>
+
+    <!-- <node name="leg_read_csv" pkg="leg_gazebo" type="leg_read_csv.py" output="screen"> </node> -->
+
+    <!-- Xuat du lieu file csv -->
+    <!-- <node name="Xuat_du_lieu" pkg="leg_gazebo" type="no1_publish_data_csv.py" output="screen"/> -->
+    
+    <!-- Nhan du lieu file csv -->
+    <!-- <node name="nhan_du_lieu" pkg="leg_gazebo" type="no2_subscribt_data_csv.py" output="screen"/> -->
+    
+
+    <!-- Hien thi du lieu  -->
+    <!-- <node name="hien_thi_du_lieu" pkg="leg_gazebo" type="no3_displaydata.py" output="screen"/> -->
+    
+    <!-- Them cho do dung hien thi du lieu khi khong mo phong  -->
+    <node name="them_che_do_no4" pkg="leg_gazebo" type="no4_them_che_do_test_dung_mo_phong.py" output="screen"/>
+    
+    <!-- No5 -->
+    <node name="Dung_publish" pkg="leg_gazebo" type="no5_stop_publish.py" output="screen"/>
+    
+
+</launch>

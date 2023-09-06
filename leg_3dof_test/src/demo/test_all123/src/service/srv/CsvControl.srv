@@ -1,0 +1,3 @@
+# CsvControl.srv
+---
+control_start_stop bool

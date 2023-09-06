@@ -1,0 +1,87 @@
+leg_chuanv3:
+   # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 100
+  
+  # Position Controllers ---------------------------------------
+  
+  # Left Leg -----
+  llink1_position:
+    type: effort_controllers/JointPositionController
+    joint: ljoint1
+    pid: {p: 200.0, i: 10.0, d: 0.0}
+
+  llink2_position:
+    type: effort_controllers/JointPositionController
+    joint: ljoint2
+    pid: {p: 200.0, i: 10.0, d: 0.0}
+
+  llink3_position:
+    type: effort_controllers/JointPositionController
+    joint: ljoint3
+    pid: {p: 200.0, i: 10.0, d: 0.0}
+
+
+    # Right Leg -----
+
+  rlink1_position:
+    type: effort_controllers/JointPositionController
+    joint: rjoint1
+    pid: {p: 200.0, i: 10.0, d: 0.0}
+
+  rlink2_position:
+    type: effort_controllers/JointPositionController
+    joint: rjoint2
+    pid: {p: 200.0, i: 10.0, d: 0.0}
+
+  rlink3_position:
+    type: effort_controllers/JointPositionController
+    joint: rjoint3
+    pid: {p: 200.0, i: 10.0, d: 0.0}
+
+
+
+
+
+# leg_chuanv3:
+#    # Publish all joint states -----------------------------------
+#   joint_state_controller:
+#     type: joint_state_controller/JointStateController
+#     publish_rate: 100
+  
+#   # Position Controllers ---------------------------------------
+  
+#   # Left Leg -----
+#   llink1_position:
+#     type: position_controllers/JointPositionController
+#     joint: ljoint1
+#     pid: {p: 200.0, i: 2.0, d: 0.0}
+
+#   llink2_position:
+#     type: position_controllers/JointPositionController
+#     joint: ljoint2
+#     pid: {p: 0.0, i: 0.0, d: 0.0}
+
+#   llink3_position:
+#     type: position_controllers/JointPositionController
+#     joint: ljoint3
+#     pid: {p: 0.0, i: 0.0, d: 0.0}
+
+
+#     # Right Leg -----
+
+#   rlink1_position:
+#     type: position_controllers/JointPositionController
+#     joint: rjoint1
+#     pid: {p: 0.0, i: 0.0, d: 0.0}
+
+#   rlink2_position:
+#     type: position_controllers/JointPositionController
+#     joint: rjoint2
+#     pid: {p: 0.0, i: 0.0, d: 0.0}
+
+#   rlink3_position:
+#     type: position_controllers/JointPositionController
+#     joint: rjoint3
+#     pid: {p: 0.0, i: 0.0, d: 0.0}

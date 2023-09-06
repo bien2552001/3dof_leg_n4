@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+<node name="publish_data_from_csv" pkg="test_all123" type="no1_publish_data_csv.py" output="screen"/>
+
+<node name="subscribe_data_from_csv" pkg="test_all123" type="no2_subscribt_data_csv.py" output="screen"/>
+
+</launch>

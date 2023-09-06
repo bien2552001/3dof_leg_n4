@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- Pushlish -->
+    <node name="trang_thai_cho_truoc" pkg="test_all123" type="no2_service_trang_thai_cho_truoc.py" output="screen"/>
+
+    <!-- Subscribe -->
+    <node name="receiver_data" pkg="test_all123" type="no2_subscribt_data_csv.py" output="screen"/>
+    
+
+</launch>
